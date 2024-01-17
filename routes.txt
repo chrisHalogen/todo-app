@@ -1,0 +1,49 @@
+routes = [
+    {
+        'Endpoint': '/api/todos/',
+        'method': 'GET',
+        'body': None,
+        'description': 'Returns an array of todos'
+    },
+    {
+        'Endpoint': '/api/todos/:value/filter/',
+        'method': 'GET',
+        'body': None,
+        'description': 'Returns an array of todos'
+    },
+    {
+        'Endpoint': '/api/todos/',
+        'method': 'POST',
+        'body': {
+                'description': 'The description of the task'
+            },
+        'description': 'Creates a new todo'
+    },
+    {
+        'Endpoint': '/api/todos/:id/',
+        'method': 'GET',
+        'body': None,
+        'description': 'Returns a single todo object'
+    },
+    {
+        'Endpoint': '/api/todos/:id/',
+        'method': 'PUT',
+        'body': {
+            'description': "The description of the task"
+        },
+        'description': 'Returns a single todo object'
+    },
+    {
+        'Endpoint': '/api/todos/:id/toggle/',
+        'method': 'PATCH',
+        'body': None,
+        'description': 'Toggles the status of the completed attribute of the Todo Object'
+    },
+    {
+        'Endpoint': '/api/todo/:id/',
+        'method': 'DELETE',
+        'body': None,
+        'description': 'Deletes a Single Todo'
+    },
+    
+]

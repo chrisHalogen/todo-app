@@ -1,0 +1,22 @@
+const taskList = [
+    { id: 135, description: "Clean the house Clean the houseClean the houseClean the house", completed: true },
+    { id: 482, description: "Learn a new skill", completed: false },
+    { id: 719, description: "Exercise", completed: true },
+    { id: 624, description: "Write a blog post", completed: false },
+    { id: 891, description: "Organize closet", completed: true },
+    { id: 367, description: "Call a friend", completed: false },
+    { id: 502, description: "Buy groceries", completed: true },
+    { id: 198, description: "Read a book", completed: false },
+    { id: 756, description: "Plan vacation", completed: true },
+    { id: 943, description: "Finish homework", completed: false },
+    { id: 285, description: "Learn a new skill", completed: true },
+    { id: 619, description: "Call a friend", completed: false },
+    { id: 741, description: "Write a blog post", completed: true },
+    { id: 508, description: "Buy groceries", completed: false },
+    { id: 129, description: "Organize closet", completed: true },
+    { id: 370, description: "Exercise", completed: false },
+    { id: 952, description: "Read a book", completed: true },
+    { id: 654, description: "Plan vacation", completed: false },
+    { id: 427, description: "Finish homework", completed: true },
+    { id: 846, description: "Clean the house", completed: false }
+];
